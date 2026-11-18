@@ -1,0 +1,691 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ivan Jericho S. Ranada | IT Professional</title>
+    <meta name="description" content="The personal portfolio of Ivan Jericho S. Ranada, an IT professional with experience in warehouse IT support, web development, mobile application development, and game development.">
+    <meta name="theme-color" content="#f8fafc">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<div class="background-effects">
+    <div class="gradient-orb orb-one"></div>
+    <div class="gradient-orb orb-two"></div>
+    <div class="grid-pattern"></div>
+</div>
+
+<header class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">
+            <span class="logo-mark">IR.</span>
+            <span class="logo-text">Ivan Ranada</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i data-lucide="menu"></i>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link nav-contact">
+                Let's Connect <i data-lucide="arrow-up-right"></i>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero section" id="home">
+    <div class="hero-content reveal">
+        <div class="availability">
+            <span class="availability-dot"></span>
+            IT Associate at FASTOCK Warehousing Inc.
+        </div>
+
+        <p class="hero-greeting">HELLO, WORLD! I'M</p>
+        <h1>Ivan Jericho <span class="gradient-text">S. Ranada.</span></h1>
+
+        <h2 class="hero-subtitle">
+            IT Professional <span class="accent-dot">·</span>
+            Web Developer <span class="accent-dot">·</span>
+            Problem Solver
+        </h2>
+
+        <p class="hero-description">
+            I work at the intersection of technology and practical problem-solving.
+            From supporting warehouse operations to developing websites,
+            mobile applications, and interactive digital experiences,
+            I enjoy making technology work better for people.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+                Explore My Work <i data-lucide="arrow-up-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+
+        <div class="hero-socials">
+            <a href="mailto:ranadaivanjericho78@gmail.com" aria-label="Email">
+                <i data-lucide="mail"></i>
+            </a>
+
+            <!-- LinkedIn: inline SVG, independent of Lucide -->
+            <a href="https://www.linkedin.com/in/ivan-jericho-ranada-626118323"
+               class="linkedin-icon"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="LinkedIn"
+               title="LinkedIn">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+            </a>
+
+            <span class="social-caption">Connect with me</span>
+        </div>
+    </div>
+
+    <div class="hero-visual reveal">
+        <div class="visual-card main-visual-card">
+            <div class="visual-card-top">
+                <span class="window-dot"></span>
+                <span class="window-dot"></span>
+                <span class="window-dot"></span>
+                <span class="visual-card-label">MY DIGITAL SPACE</span>
+            </div>
+
+            <div class="code-visual">
+                <div class="code-line">
+                    <span class="code-number">01</span>
+                    <span class="code-purple">const</span>
+                    <span class="code-blue">developer</span> = {
+                </div>
+                <div class="code-line indent">
+                    <span class="code-blue">name:</span>
+                    <span class="code-green">'Ivan Ranada'</span>,
+                </div>
+                <div class="code-line indent">
+                    <span class="code-blue">role:</span>
+                    <span class="code-green">'IT Professional'</span>,
+                </div>
+                <div class="code-line indent">
+                    <span class="code-blue">passion:</span>
+                    <span class="code-green">'Technology'</span>,
+                </div>
+                <div class="code-line indent">
+                    <span class="code-blue">mindset:</span>
+                    <span class="code-green">'Keep Learning'</span>
+                </div>
+                <div class="code-line">}</div>
+                <div class="code-line code-comment">// Always building something better.</div>
+            </div>
+
+            <div class="visual-bottom">
+                <div class="visual-icon"><i data-lucide="terminal"></i></div>
+                <div>
+                    <strong>Curiosity-driven</strong>
+                    <span>Always learning. Always improving.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="floating-card floating-card-one">
+            <i data-lucide="code-2"></i><span>Web Development</span>
+        </div>
+        <div class="floating-card floating-card-two">
+            <i data-lucide="settings"></i><span>IT Support</span>
+        </div>
+        <div class="floating-decoration decoration-one"></div>
+        <div class="floating-decoration decoration-two"></div>
+    </div>
+
+    <a href="#about" class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <i data-lucide="arrow-down"></i>
+    </a>
+</section>
+
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+    <div class="section-heading reveal">
+        <span class="section-label">01 / ABOUT ME</span>
+        <h2>A little about <span class="gradient-text">who I am.</span></h2>
+        <p>Technology is more than just a profession. It's a continuous learning journey.</p>
+    </div>
+
+    <div class="about-grid">
+        <div class="about-main reveal">
+            <div class="about-icon"><i data-lucide="user-round"></i></div>
+            <h3>I'm Ivan Jericho S. Ranada</h3>
+            <p>An Information Technology professional with experience in technical support, web development, and administrative operations. I enjoy exploring technology, solving technical challenges, and finding practical solutions that make everyday workflows more efficient.</p>
+            <p>My experience has allowed me to work with different areas of IT, from troubleshooting computer systems and supporting users to developing websites and working with business applications.</p>
+            <p>I also explore mobile application and game development, continuously expanding my programming knowledge and technical capabilities.</p>
+            <p>I believe that good technology should be reliable, useful, and easy for people to work with.</p>
+        </div>
+
+        <div class="about-highlights">
+            <div class="highlight-card reveal">
+                <div class="highlight-icon"><i data-lucide="monitor"></i></div>
+                <div><h4>Technical Support</h4><p>Helping users and maintaining reliable IT operations.</p></div>
+            </div>
+            <div class="highlight-card reveal">
+                <div class="highlight-icon"><i data-lucide="code"></i></div>
+                <div><h4>Web Development</h4><p>Building user-friendly and functional web experiences.</p></div>
+            </div>
+            <div class="highlight-card reveal">
+                <div class="highlight-icon"><i data-lucide="database"></i></div>
+                <div><h4>Business Operations</h4><p>Experience with documentation, SAP, and data management.</p></div>
+            </div>
+            <div class="highlight-card reveal">
+                <div class="highlight-icon"><i data-lucide="gamepad-2"></i></div>
+                <div><h4>Application & Game Development</h4><p>Exploring mobile applications and interactive game experiences.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section experience-section" id="experience">
+    <div class="section-heading reveal">
+        <span class="section-label">02 / EXPERIENCE</span>
+        <h2>My professional <span class="gradient-text">journey.</span></h2>
+        <p>Different roles, valuable experiences, and continuous growth.</p>
+    </div>
+
+    <div class="timeline">
+        <article class="timeline-item reveal">
+            <div class="timeline-marker current-marker"></div>
+            <div class="experience-card current-experience">
+                <div class="experience-top">
+                    <span class="experience-period">CURRENT POSITION</span>
+                    <span class="experience-type">IT SUPPORT</span>
+                </div>
+                <h3>IT Associate</h3>
+                <h4>FASTOCK Warehousing Inc.</h4>
+                <p>Supporting FASTOCK warehouse operations through IT assistance and technical support, helping maintain smooth day-to-day operations and addressing technology-related concerns.</p>
+                <div class="tag-list">
+                    <span>IT Support</span><span>Technical Troubleshooting</span><span>Warehouse Operations</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+                <div class="experience-top">
+                    <span class="experience-period">MARCH 2026 – SEPTEMBER 2026</span>
+                    <span class="experience-type">WEB DEVELOPMENT</span>
+                </div>
+                <h3>Analyst – Web Developer</h3>
+                <h4>eClerx</h4>
+                <p>Worked on website development for Australian clients. Gained professional experience in website creation, front-end development, and building user-friendly web experiences.</p>
+                <div class="confidential-note">
+                    <i data-lucide="lock"></i>
+                    <span>Client work is confidential and is not displayed in this portfolio.</span>
+                </div>
+                <div class="tag-list">
+                    <span>DUDA</span><span>UI/UX</span><span>Website Development</span><span>Front-end</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+                <div class="experience-top">
+                    <span class="experience-period">SEPTEMBER 2024 – FEBRUARY 2026</span>
+                    <span class="experience-type">ADMINISTRATION</span>
+                </div>
+                <h3>SRA Admin</h3>
+                <h4>B-Mirk Enterprise / Metro Drug Incorporated</h4>
+                <p>Gained experience in administrative operations, document control, database management, SAP-related processes, and coordinating information to support business activities.</p>
+                <div class="tag-list">
+                    <span>SAP</span><span>Document Control</span><span>Database Management</span><span>Administration</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+                <div class="experience-top">
+                    <span class="experience-period">JANUARY 2024 – JUNE 2024</span>
+                    <span class="experience-type">INTERNSHIP</span>
+                </div>
+                <h3>IT Support Intern</h3>
+                <h4>Angels in Heaven School Inc.</h4>
+                <p>Developed practical IT support experience through technical assistance and troubleshooting of computer systems and related equipment.</p>
+                <div class="tag-list">
+                    <span>IT Support</span><span>Hardware Troubleshooting</span><span>Technical Assistance</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+                <div class="experience-top">
+                    <span class="experience-period">MARCH 2019 – APRIL 2019</span>
+                    <span class="experience-type">INTERNSHIP</span>
+                </div>
+                <h3>IT Intern</h3>
+                <h4>San Isidro Elementary School</h4>
+                <p>Completed an introductory IT internship, gaining early exposure to workplace technology and technical support activities.</p>
+                <div class="tag-list">
+                    <span>IT Fundamentals</span><span>Technical Assistance</span>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section skills-section" id="skills">
+    <div class="section-heading reveal">
+        <span class="section-label">03 / SKILLS & EXPERTISE</span>
+        <h2>Tools I work with and <span class="gradient-text">things I do.</span></h2>
+        <p>A combination of programming knowledge, technical skills, creativity, and practical experience.</p>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card reveal">
+            <div class="skill-card-heading">
+                <div class="skill-icon"><i data-lucide="code-2"></i></div>
+                <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+                <span>Python</span><span>Java</span><span>Kotlin</span><span>Dart</span>
+                <span>JavaScript</span><span>TypeScript</span><span>PHP</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-card-heading">
+                <div class="skill-icon"><i data-lucide="monitor-smartphone"></i></div>
+                <h3>Web & Mobile Development</h3>
+            </div>
+            <div class="skill-tags">
+                <span>HTML5</span><span>CSS3</span><span>Laravel</span><span>Vue.js</span>
+                <span>WordPress</span><span>Flutter</span><span>Android Development</span>
+                <span>Firebase</span><span>HTML5 Canvas</span>
+                <span>Responsive Web Design</span><span>Front-end Development</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-card-heading">
+                <div class="skill-icon"><i data-lucide="palette"></i></div>
+                <h3>Design & Multimedia</h3>
+            </div>
+            <div class="skill-tags">
+                <span>Figma</span><span>DUDA 1.0–2.0</span><span>UI/UX Design</span>
+                <span>Graphic Design</span><span>Photo Editing</span><span>Video Editing</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-card-heading">
+                <div class="skill-icon"><i data-lucide="monitor-cog"></i></div>
+                <h3>IT & Technical Support</h3>
+            </div>
+            <div class="skill-tags">
+                <span>Hardware Troubleshooting</span><span>System Unit Troubleshooting</span>
+                <span>Printer Troubleshooting</span><span>Technical Support</span>
+                <span>Customer Support</span><span>IT Operations</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-card-heading">
+                <div class="skill-icon"><i data-lucide="database"></i></div>
+                <h3>Business & Productivity</h3>
+            </div>
+            <div class="skill-tags">
+                <span>SAP</span><span>Database Management</span><span>Document Control</span>
+                <span>Microsoft Word</span><span>Microsoft Excel</span><span>Microsoft PowerPoint</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section projects-section" id="projects">
+    <div class="section-heading reveal">
+        <span class="section-label">04 / SELECTED PROJECTS</span>
+        <h2>Things I've <span class="gradient-text">worked on.</span></h2>
+        <p>Personal development and professional experience that reflect my skills and interests.</p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- FASTOCK -->
+        <article class="project-card featured-project reveal">
+            <div class="project-visual fastock-visual">
+                <div class="project-visual-top">
+                    <span class="project-number">PROJECT 01</span>
+                    <span class="project-category">PERSONAL PROJECT</span>
+                </div>
+
+                <div class="fastock-showcase">
+                    <div class="fastock-brand">
+                        <div class="fastock-brand-icon"><i data-lucide="warehouse"></i></div>
+                        <div>
+                            <strong>FASTOCK</strong>
+                            <span>WAREHOUSE MANAGEMENT</span>
+                        </div>
+                    </div>
+
+                    <div class="warehouse-dashboard">
+                        <div class="warehouse-sidebar">
+                            <div class="sidebar-brand"><i data-lucide="boxes"></i></div>
+                            <span class="sidebar-active"><i data-lucide="layout-dashboard"></i></span>
+                            <span><i data-lucide="package"></i></span>
+                            <span><i data-lucide="scan-barcode"></i></span>
+                            <span><i data-lucide="users"></i></span>
+                            <span><i data-lucide="settings"></i></span>
+                        </div>
+
+                        <div class="warehouse-main">
+                            <div class="warehouse-topbar">
+                                <div>
+                                    <small>WAREHOUSE OVERVIEW</small>
+                                    <strong>Operations Dashboard</strong>
+                                </div>
+                                <span class="dashboard-avatar">IR</span>
+                            </div>
+
+                            <div class="warehouse-stats">
+                                <div class="warehouse-stat">
+                                    <span>INVENTORY</span><strong>2,480</strong>
+                                    <small><i data-lucide="package"></i> Items tracked</small>
+                                </div>
+                                <div class="warehouse-stat">
+                                    <span>SCANNING</span><strong>Live</strong>
+                                    <small><i data-lucide="scan-line"></i> PDA workflow</small>
+                                </div>
+                                <div class="warehouse-stat">
+                                    <span>ACCESS</span><strong>Active</strong>
+                                    <small><i data-lucide="shield-check"></i> Employee system</small>
+                                </div>
+                            </div>
+
+                            <div class="warehouse-lower">
+                                <div class="warehouse-activity">
+                                    <div class="mini-panel-heading">
+                                        <strong>Warehouse activity</strong><span>OVERVIEW</span>
+                                    </div>
+                                    <div class="activity-row"><i data-lucide="package-check"></i><span>Inventory workflow</span><b>READY</b></div>
+                                    <div class="activity-row"><i data-lucide="scan-barcode"></i><span>Barcode scanning</span><b>READY</b></div>
+                                    <div class="activity-row"><i data-lucide="user-check"></i><span>Employee access</span><b>ACTIVE</b></div>
+                                </div>
+                                <div class="warehouse-bars">
+                                    <span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pda-device">
+                        <div class="pda-screen">
+                            <div class="pda-camera"></div>
+                            <i data-lucide="scan-barcode"></i>
+                            <strong>SCAN ITEM</strong>
+                            <span>FASTOCK PDA</span>
+                        </div>
+                        <div class="pda-button"></div>
+                    </div>
+
+                    <div class="fastock-visual-caption">
+                        <span class="caption-dot"></span> WAREHOUSE TECHNOLOGY
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-meta"><span>ANDROID DEVELOPMENT</span><span>01</span></div>
+                <h3>FASTOCK – Warehouse PDA Application</h3>
+                <p>A personal Android application project focused on warehouse PDA workflows and employee access. Developed to explore practical mobile solutions for warehouse operations.</p>
+                <div class="project-features">
+                    <span><i data-lucide="check-circle-2"></i> Employee access flow</span>
+                    <span><i data-lucide="check-circle-2"></i> Android application development</span>
+                    <span><i data-lucide="check-circle-2"></i> Firebase integration</span>
+                </div>
+                <div class="tag-list">
+                    <span>Kotlin</span><span>Android Studio</span><span>Firebase Authentication</span><span>Firestore</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-status"><span class="status-dot"></span> Personal Development Project</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- ECLERX -->
+        <article class="project-card reveal">
+            <div class="project-visual eclerx-visual">
+                <div class="project-visual-top">
+                    <span class="project-number">PROJECT 02</span>
+                    <span class="project-category">PROFESSIONAL EXPERIENCE</span>
+                </div>
+
+                <div class="browser-mockup">
+                    <div class="browser-bar">
+                        <span></span><span></span><span></span>
+                        <div class="browser-address">Confidential Client Work</div>
+                    </div>
+                    <div class="browser-content">
+                        <div class="mockup-heading"></div>
+                        <div class="mockup-subheading"></div>
+                        <div class="mockup-lines"></div>
+                        <div class="mockup-panels"><div></div><div></div><div></div></div>
+                    </div>
+                </div>
+
+                <div class="confidential-overlay">
+                    <i data-lucide="lock"></i><span>Confidential Work</span>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-meta"><span>WEB DEVELOPMENT</span><span>02</span></div>
+                <h3>Website Development – Australian Clients</h3>
+                <p>Professional website development experience gained at eClerx, working on websites for Australian clients. Actual client deliverables are not displayed due to company confidentiality requirements.</p>
+                <div class="confidential-note">
+                    <i data-lucide="shield-check"></i>
+                    <span>Professional experience – client work kept confidential.</span>
+                </div>
+                <div class="tag-list">
+                    <span>DUDA</span><span>UI/UX</span><span>Website Development</span><span>Front-end</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- VELOCITY RACER -->
+        <article class="project-card reveal">
+            <div class="project-visual velocity-visual">
+                <div class="project-visual-top">
+                    <span class="project-number">PROJECT 03</span>
+                    <span class="project-category">PERSONAL PROJECT</span>
+                </div>
+
+                <div class="racer-showcase">
+                    <div class="racer-header">
+                        <div class="racer-title">
+                            <span>ARCADE SERIES / 001</span>
+                            <strong>VELOCITY<span>RACER</span></strong>
+                        </div>
+                        <div class="racer-live"><span></span> GAME ON</div>
+                    </div>
+
+                    <div class="racer-hud">
+                        <div class="racer-hud-item"><small>SPEED</small><strong>186 <small>KM/H</small></strong></div>
+                        <div class="racer-hud-item"><small>GEAR</small><strong>04</strong></div>
+                        <div class="racer-hud-item"><small>LAP</small><strong>02<span>/03</span></strong></div>
+                    </div>
+
+                    <div class="racing-scene">
+                        <div class="racing-sky-glow"></div>
+                        <div class="racing-track">
+                            <div class="track-edge track-edge-left"></div>
+                            <div class="track-edge track-edge-right"></div>
+                            <div class="track-line track-line-one"></div>
+                            <div class="track-line track-line-two"></div>
+                            <div class="track-line track-line-three"></div>
+                            <div class="track-line track-line-four"></div>
+                            <div class="track-center-line"></div>
+                            <div class="racer-car">
+                                <div class="car-shadow"></div>
+                                <div class="car-body">
+                                    <div class="car-windshield"></div>
+                                    <div class="car-hood"></div>
+                                    <div class="car-light car-light-left"></div>
+                                    <div class="car-light car-light-right"></div>
+                                </div>
+                                <div class="car-wheel wheel-left"></div>
+                                <div class="car-wheel wheel-right"></div>
+                            </div>
+                        </div>
+                        <div class="speed-lines"><span></span><span></span><span></span><span></span></div>
+                    </div>
+
+                    <div class="racer-bottom">
+                        <div class="racer-control"><i data-lucide="arrow-up-down"></i> ACCELERATE</div>
+                        <div class="racer-control"><i data-lucide="arrow-left-right"></i> STEER</div>
+                        <div class="racer-control"><i data-lucide="zap"></i> BOOST</div>
+                    </div>
+                    <div class="racer-visual-caption">BUILT FOR SPEED. MADE TO PLAY.</div>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-meta"><span>GAME DEVELOPMENT</span><span>03</span></div>
+                <h3>Velocity Racer – 2D Arcade Racing Game</h3>
+                <p>A personal browser-based 2D arcade racing game project developed to explore game development, interactive gameplay mechanics, and JavaScript-based game rendering. The project focuses on creating an engaging racing experience through HTML5 Canvas.</p>
+                <div class="project-features">
+                    <span><i data-lucide="check-circle-2"></i> Keyboard-based driving controls</span>
+                    <span><i data-lucide="check-circle-2"></i> Acceleration, braking, and steering mechanics</span>
+                    <span><i data-lucide="check-circle-2"></i> Real-time speed and gear display</span>
+                    <span><i data-lucide="check-circle-2"></i> 2D Canvas-based game rendering</span>
+                </div>
+                <div class="tag-list">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>HTML5 Canvas</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-status"><span class="status-dot"></span> Personal Development Project</span>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section education-section" id="education">
+    <div class="section-heading reveal">
+        <span class="section-label">05 / EDUCATION</span>
+        <h2>My educational <span class="gradient-text">background.</span></h2>
+        <p>The foundation that helped shape my journey in technology.</p>
+    </div>
+
+    <div class="education-grid">
+        <article class="education-card reveal">
+            <div class="education-icon"><i data-lucide="graduation-cap"></i></div>
+            <span class="education-year">2020 – 2024</span>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <h4>Pamantasan ng Cabuyao</h4>
+            <span class="education-level">COLLEGE</span>
+        </article>
+
+        <article class="education-card reveal">
+            <div class="education-icon"><i data-lucide="book-open"></i></div>
+            <span class="education-year">2018 – 2020</span>
+            <h3>Senior High School – ICT</h3>
+            <h4>Westbridge Institute of Technology Inc.</h4>
+            <span class="education-level">SENIOR HIGH SCHOOL</span>
+        </article>
+
+        <article class="education-card reveal">
+            <div class="education-icon"><i data-lucide="school"></i></div>
+            <span class="education-year">2014 – 2018</span>
+            <h3>Junior High School – ICT</h3>
+            <h4>Cabuyao Integrated National High School</h4>
+            <span class="education-level">JUNIOR HIGH SCHOOL</span>
+        </article>
+
+        <article class="education-card reveal">
+            <div class="education-icon"><i data-lucide="book"></i></div>
+            <span class="education-year">2009 – 2013</span>
+            <h3>Elementary Education</h3>
+            <h4>Pulo Elementary School</h4>
+            <span class="education-level">ELEMENTARY</span>
+        </article>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+    <div class="contact-container reveal">
+        <span class="section-label">06 / CONTACT</span>
+        <h2>Have a project or opportunity? <span class="gradient-text">Let's talk.</span></h2>
+        <p>I'm always interested in connecting with people, exploring new opportunities, and learning about interesting projects.</p>
+
+        <a href="mailto:ranadaivanjericho78@gmail.com" class="btn btn-primary contact-button">
+            <i data-lucide="mail"></i>
+            Send Me an Email
+            <i data-lucide="arrow-up-right"></i>
+        </a>
+
+        <div class="contact-links">
+            <a href="mailto:ranadaivanjericho78@gmail.com">
+                <i data-lucide="mail"></i>
+                ranadaivanjericho78@gmail.com
+            </a>
+
+            <!-- LinkedIn: inline SVG, independent of Lucide -->
+            <a href="https://www.linkedin.com/in/ivan-jericho-ranada-626118323"
+               class="linkedin-contact"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Visit my LinkedIn profile">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                LinkedIn Profile
+            </a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+        <a href="#home" class="logo">
+            <span class="logo-mark">IR.</span>
+            <span class="logo-text">Ivan Ranada</span>
+        </a>
+        <p>Designed and built with curiosity by Ivan Ranada.</p>
+        <span class="copyright">© <span id="currentYear"></span> Ivan Jericho S. Ranada</span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
